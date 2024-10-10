@@ -34,3 +34,37 @@ Berisi mengenai query yang telah berhasil dijalankan selama proses internship te
 |                 | cust_email           | STRING    | -                                                                            |
 |                 | cust_city            | STRING    | -                                                                            |
 |                 | cust_state           | STRING    | -                                                                            |
+
+
+| Table           | Column             | Description                              |
+|-----------------|--------------------|------------------------------------------|
+| **customers**    | CustomerID         | Unique customer ID                       |
+|                 | FirstName          | Customer's first name                    |
+|                 | LastName           | Customer's last name                     |
+|                 | CustomerEmail      | Customer's email address                 |
+|                 | CustomerPhone      | Customer's phone number                  |
+|                 | CustomerAddress    | Customer's full address                  |
+|                 | CustomerCity       | Customer's city of residence             |
+|                 | CustomerState      | Customer's state of residence            |
+|                 | CustomerZip        | Customer's zip code                      |
+| **products**     | ProdNumber         | Unique product ID                        |
+|                 | ProdName           | Product name                             |
+|                 | Category           | Product category                         |
+|                 | Price              | Product price                            |
+| **product_category** | CategoryID      | Unique category ID                       |
+|                 | CategoryName       | Product category name                    |
+|                 | CategoryAbbrev     | Product category abbreviation            |
+| **orders**       | OrderID           | Unique order ID                          |
+|                 | Date               | Order date                               |
+|                 | CustomerID         | Customer ID related to the order         |
+|                 | ProdNumber         | Product ID related to the order          |
+|                 | Quantity           | Quantity of product in the order         |
+| **master_table** | order_date         | Order date                               |
+|                 | category_name      | Product category name                    |
+|                 | product_name       | Product name                             |
+|                 | product_price      | Product price                            |
+|                 | order_qty          | Quantity of product ordered              |
+|                 | total_sales        | Total sales                              |
+|                 | cust_email         | Customer email                           |
+|                 | cust_city          | Customer city                            |
+|                 | cust_state         | Customer state                           |
